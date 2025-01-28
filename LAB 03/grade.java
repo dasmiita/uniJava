@@ -1,3 +1,5 @@
+/*WAP to sum the marks secured in 5 subjects and display the secured grade*/
+
 import java.util.Scanner;
 
 public class grade{
