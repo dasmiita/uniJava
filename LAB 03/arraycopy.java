@@ -1,3 +1,7 @@
+/* WAP to copy the rest of the elements of the array after the position, if the specified number is found in the array 
+Example : arr = [10,20,30,40,50,60,70,105]
+Input number to check for : 50.. then Arr1 should have the elements - [50,60,70,105]*/
+
 import java.util.Scanner;
 
 public class arraycopy {
