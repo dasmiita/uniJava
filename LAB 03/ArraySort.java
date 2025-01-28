@@ -1,3 +1,5 @@
+//WAP to sort the elements of an array
+
 import java.util.Scanner;
 
 public class ArraySort{
@@ -15,12 +17,14 @@ public class ArraySort{
         System.out.println("array aftet sort:");
         for (int num : arr)
             System.out.print(num + " ");
+//printing the highest and lowest value from the array
             
         int highest = arr[n-1];
         int lowest = arr[n-8];
         System.out.println("highest element is = " + highest);
         System.out.println("lowest element is =" + lowest);   
 
+//taking user input to find a specific element in array
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the element to search: ");
         int key = scanner.nextInt();
@@ -31,10 +35,7 @@ public class ArraySort{
             if (arr[i] == key) {
                 System.out.println("Element " + key + " found at index " + i);
                 found = true;
-                break;
-            }
-        }
-
+                break;}}
         if (!found)
             System.out.println("Element " + key + " not found in the array.");
             }}
