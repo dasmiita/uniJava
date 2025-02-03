@@ -1,15 +1,13 @@
-public class StockPrices {
-    public static void main(String[] args) {
-        // 2D array: Each row represents [time, stock value]
-        int[][] stockData = {
-            {12, 100},  
-            {1, 105}, 
-            {2, 98},  
-            {3, 110}, 
-            {4, 102}};
-        
-        // Print stock values at respective times
-        System.out.println("Time\tStock Value");
-        for (int i = 0; i < stockData.length; i++) {
-            System.out.println(stockData[i][0] + "\t" + stockData[i][1]);
+public class arrlearn { 
+    public static void main(String[] args){
+        System.out.println("Time and Values of different stocks : ");
+        System.out.println("Time (in AM)" + "\t" +  "stocks");
+        int nums[][] = {
+            {9, 100},
+            {10, 104},
+            {11, 102},
+            {12,108}};
+
+        for(int i =0; i<=nums.length; i++){
+        System.out.println(nums[i][0] + "\t" + nums[i][1]);
         }}}
