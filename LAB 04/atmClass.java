@@ -1,3 +1,5 @@
+/*Create a Simple menu driven program for an ATM. Employ different methods 
+like withdraw, check_balance, deposit, etc using an object of the ATM.*/
 import java.util.Scanner;
 
 public class atmClass {
