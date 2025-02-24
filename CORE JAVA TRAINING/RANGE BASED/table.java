@@ -1,15 +1,15 @@
-//program to print multipl
+//program to print multiplication tables from 1 to 10 
 public class table {
     public static void main(String[] args) {
-        int mul=0;
-    
+    int mul=0;
     int n=10;
     for(int i=1;i<=n;i++){
-        for (i=1;i<=10;i++){
-           mul =  (n*i);
-           System.out.println(mul);
+        System.out.println("multiplication table of "+ i + " is");
+        for ( int j=1 ;j<=10;j++){
+           mul =  (i*j);
+           System.out.println(i + " x " + j + " = " + mul);
 
         }
-        System.out.println(mul);
+        
     }
 }}
